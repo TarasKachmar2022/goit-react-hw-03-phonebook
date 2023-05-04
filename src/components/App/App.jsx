@@ -20,8 +20,6 @@ class App extends Component {
     if (contactItems) {
       this.setState({ contacts: contactItems });
     }
-    console.log(contactItems);
-    console.log(this.state.contacts);
   }
 
   componentDidUpdate(_, prevState) {
